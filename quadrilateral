@@ -1,0 +1,3 @@
+s=int(input("Enter number of sides:"))
+x="the shape is a quadrilateral" if s%4==0 else "the shape is not a quadrilateral"
+print(x)
